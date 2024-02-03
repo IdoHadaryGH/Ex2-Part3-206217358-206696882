@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class AppTest {
+	
+	App root = new App();
 
 	@Test
 	public void TC1_A_min() {
