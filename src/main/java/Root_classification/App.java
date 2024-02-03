@@ -28,7 +28,7 @@ public class App {
 			} else if (q == 0) {
 				// the equation has exactly one root
 
-				roots = Root_Types.Two_roots;
+				roots = Root_Types.Equal_roots;
 
 			} else {
 				// the equation has no roots if b^2 < 4ac
