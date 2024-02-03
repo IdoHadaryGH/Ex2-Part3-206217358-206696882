@@ -8,16 +8,16 @@ enum Root_Types {
 public class App {
 	private static Root_Types roots;
 
-	private static boolean out_of_Range(double x, double a, double b) {
+	private static boolean out_of_Range(int x, int a, int b) {
 		return !(x >= a && x <= b);
 	}
 
-	public static void calculate_roots(double a, double b, double c) {
+	public static void calculate_roots(int a, int b, int c) {
 		double q, r;
 
 		q = b * b - 4 * a * c;
 
-		if (out_of_Range(a, 0, 50) || out_of_Range(b, 0, 50) || out_of_Range(c, 0, 100)) {
+		if (out_of_Range(a, 0, 100) && out_of_Range(b, 0, 100) && out_of_Range(c, 0, 100)) {
 			roots = Root_Types.ERROR;
 			return;
 		}
