@@ -33,7 +33,7 @@ public class App {
 			} else {
 				// the equation has no roots if b^2 < 4ac
 
-				roots = Root_Types.Not_quadratic;
+				roots = Root_Types.No_roots;
 			}
 		} else {
 
