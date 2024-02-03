@@ -24,7 +24,7 @@ public class AppTest {
 		assertEquals(root_expected, App.root_types().toString());
 	}
 	@Test
-	public void TC4_A_nominal() {
+	public void TC4_A_max() {
 		App.calculate_roots(100, 89, -390); 
 		String root_expected = Root_Types.ERROR.toString();
 		assertEquals(root_expected, App.root_types().toString());
